@@ -1,18 +1,29 @@
-console.log("Bem vindo");
-let evento = "Senai Palestras"
-if( evento != "Senai Palestras")
-    console.log("Evento invalido, cadastro bloqueado");
-let data = "23/08/2021"
-    if (data => "23/08/2021")
-    console.log ("Data invalida, cadastro bloqueado");
-let cadastros = ["André", "João", "Pedro", "Luiz"];
-    if( cadastros.length < 100)
-    console.log( "digite seu nome");
-    console.log( "digite sua idade");
-let idade = 18
-    if( idade > 18)
-        console.log( "Cadastro concluído com sucesso!");
-    if( idade < 18)
-        console.log( "Idade não permitida!");
-    if( cadastros.length = 100)
-    console.log( "Cadastro não concluído, numero maximo de participantes atingido");
+console.log ("Digite o nome do Evento")
+
+var nomeDoEvento = ("Senai Palestras")
+
+console.log ("Digite a data do Evento")
+
+var dataDoEvento = ("28/08/2021")
+
+if (dataDoEvento > "26/08/2021") {
+    console.log ("Digite seu nome")
+} else {
+    console.log ("data inválida, Cadastro Bloqueado!")
+}
+
+var listaDeParticipantes = ["Caio", "Lauro", "Pedro", "João", "Aline", "Sara"]
+
+if (listaDeParticipantes > 100) {
+    console.log ("Cadastro Bloqueado, maximo de participantes atingido!")
+} else {
+    console.log ("Adicione sua idade")
+}
+
+var idade = 20
+
+if (idade => 18) {
+    console.log ("Cadastro efetuado com sucesso!")
+} else {
+    console.log ("Idade invalida, cadastro bloqueado!")
+}
