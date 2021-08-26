@@ -22,7 +22,7 @@ if (listaDeParticipantes > 100) {
 
 var idade = 20
 
-if (idade => 18) {
+if (idade >= 18) {
     console.log ("Cadastro efetuado com sucesso!")
 } else {
     console.log ("Idade invalida, cadastro bloqueado!")
