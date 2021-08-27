@@ -1,6 +1,4 @@
-console.log ("Digite o nome do Evento")
-
-var nomeDoEvento = ("Senai Palestras")
+console.log ("Bem vindo as palestras do Senai")
 
 console.log ("Digite a data do Evento")
 
